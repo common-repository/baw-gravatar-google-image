@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BAW Gravatar Google Image\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-21 17:09+0100\n"
+"PO-Revision-Date: 2012-07-21 17:09+0100\n"
+"Last-Translator: Juliobox <juliobosk@gmail.com>\n"
+"Language-Team: Juliobox <juliobosk@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: c:\\Users\\Julio\\Dropbox\\BAW\\plugins\\baw-gravatar-google-image_repo\\trunk\n"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:22
+msgid "TurnYourNameIntoAFace<em>(.com)</em> (Generated)"
+msgstr "TurnYourNameIntoAFace<em>(.com)</em> (Généré)"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:29
+msgid "Upload your own"
+msgstr "Ajoutez le votre"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:30
+msgid "Reset"
+msgstr "Remettre à zéro"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:31
+msgid "Leave blank and save to reset."
+msgstr "Laissez vide et sauver pour remettre à zéro."
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:32
+msgid "Do not forget to save!"
+msgstr "N'oubliez pas de sauver !"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:41
+msgid "New behavior"
+msgstr "Nouveau comportement"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:42
+msgid "(Gr)Avatars Caching"
+msgstr "Cache des (Gr)Avatars"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:43
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:110
+msgid "Read help and about"
+msgstr "Lire l'aide et l'à propos"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:50
+msgid "<h3 class=\"hndle\" style=\"padding:5px;\"><span>Help and informations</span></h3><div class=\"inside\"><p>How does this work, when some one send a comment on a post with a valid email:<ol><li>If this email is linked to a Gravatar account, his(her) avatar will be displayed.</li><li>If this email is not linked, Gravatar will send back a default avatar, depending on your choice (Mystery Man, Gravatar Logo, Identicon, Wavatar, MonsterID, Retro ...)</li><li>Now if you choose \"Use Google Image Service\" and if the email is not linked, a Google Images Service request will be sent to get the first best relevance face photo associated to this email (safe mode set to high level).</li><li>The user will receive a mail with 3 links:</li><ol><li>If this avatar is not relevant, 1st link can be use to delete it.</li><li>If the user changed his mind and create a Gravatar account, the 2nd link can be used to refresh it.</li><li>The 3rd is a invitation to create a Gravatar account.</li></ol><li>If no picture have been found on google (bad!), the default chosen gravatar will be displayed, as usual.</li><li>If you choose \"Only default gravatars\", no real pictures will be displayed, only default (use generated !).</li><li>If you let Gravatar does its job, you will have the same behavior as without this plugin activated (but the cache system).</li></p><p>About cache system:<ol><li>I do not recommand to disable to cache system because a Google Image request cost, so you need to cache pictures !</li><li>If you only cache Google Images, when a user change or add a Gravatar to its email, you and he will not need any action.</li><li>If you also add reals gravatars, existing good photo profile from gravatar will be cached.</li><li>If you add all, even default avatars will be stored as file. But this choice reduce the HTTP request on gravatar's servers a lot!</li><li>If you change any setting, behavior or cache i recommand to clear the cache (i did not want to force it).</li></ol></p><p>Other informations:<ol><li>On plugin deletion (not just deactivation), the cache folder will be deleted if rights (chmod) are good.</li><li>Also you can add you own default avatar, it will be stored in the default upload folder and visible in medias menu.</li></ol></p></div>"
+msgstr "<h3 class=\"hndle\" style=\"padding:5px;\"><span>Aide et informations</span></h3> <div class=\"inside\"> <p>Comment ça fonctionne, quand quelqu'un envoie un commentaire sur un article avec un email valide : <ol> <li>Si ce mail est associé à un compte Gravatar, son avatar sera alors affiché.</li> <li>Si ce mail n'est pas associé, Gravatar renverra un avatar par défaut, dépendant de votre choix (Mystery Man, Gravatar Logo, Identicon, Wavatar, MonsterID, Retro ...)</li> <li>Maintenant si choisissez d'utiliser le service Google Images, et si l'email n'est pas associé, une requête sur les services de Google Images sera envoyée pour obtenir la première photo de visage correspondante à cette adresse email (safe mode au plus haut niveau).</li> <li>Cet utilisateur recevra un mail avec 3 liens :</li> <ol> <li>Si son avatar ne lui correspond pas, le 1er lien peut être utilisé pour le supprimer.</li> <li>Si cette personne change d'avis et crée un compte gravatar, le 2ème lien peut petre utilisé pour le raffraichir.</li> <li>Le 3ème est une invitation à la création de ce compte Gravatar.</li> </ol> <li>Si aucune photo n'a été trouvée sur google (dommage !), l'avatar par défaut de Gravatar sera affiché, comme d'habitude.</li> <li>Si vous choisissez \"Seulement les gravatars par défaut\", aucune vraie photo ne sera affichée, seulement les défauts (utilisé un gravatar généré !).</li><li>Si vous laissez gravatar faire son travail, vous aurez le même comportement que sans ce plugin actif (sauf le système de cache).</li><p>A propos du système de cache :<ol><li>Je ne recommande pas de le désactiver car chaque requete Google Image coute, alors vous avez besoin de les mettre en cache !</li><li>Si vous ne mettez en cache que les images Google, si un utilisateur change ou ajoute un Gravatar à son email, vous et il n'aura besoin d'aucune action.</li><li>Si vous ajoutez aussi en cache les vrais gravatars, les vraies photos depuis gravatar seront mises en cache.</li><li>Si vous ajoutez tout, même les vatars par défaut seront mis en cache en fichier. Mais ce choix réduit beaucoup les requêtes HTTP sur le serveur de gravatar !</li><li>Si vous changez le moindre réglages, comportement ou cache, je recommande de vider le cache (je ne voulais pas le forcer).</li></ol></p> <p>Autres informations:<ol><li>Si vous supprimez le plugin (pas juste désactivation), ce dossier sera supprimé si les droits le permettent.</li> <li>Aussi vous pouvez ajouter votre propre avatar par défaut, il sera stocké dans le dossier upload habituel et sera visible dans le menu des médias.</li> </ol> </p> </div>"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:116
+msgid "Use Google Image Service to get a photo when users do not have one. <em>(This plugin default)</em>"
+msgstr "Utiliser le service Google Image pour obtenir une photo quand l'utilisateur n'en a pas. <em>(Par défaut)</em>"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:117
+msgid "Use only default Gravatars (choose above), do not use Google Image or Real Gravatars pictures."
+msgstr "Utiliser seulement les Gravatars par défaut (choisissez ci-dessus), ne pas utiliser Google Image ni les vraies photos Gravatars."
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:118
+msgid "Just let Gravatar do his job ... <em>(WordPress default)</em>"
+msgstr "Laisser Gravatar faire son travail ... <em>(Par défaut dans WordPress)</em>"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:125
+msgid "Do not use cache folder system (Bad performance, not recommanded)."
+msgstr "Ne pas utiliser le système de dossier de cache (auvaises performances, non recommandé)."
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:126
+msgid "Add only Google Images into the cache folder."
+msgstr "N'ajouter que les images Google dans le dossier de cache."
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:127
+msgid "Add Real gravatars and Google Images into the cache folder (Recommanded)."
+msgstr "Ajouter les vraies photo gravatars et les images Google dans le dossier de cache (Recommandé)."
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:128
+msgid "Add Real Gravatars, Default gravatars and Google Images (all!) into the cache folder (Best HTTP performance)."
+msgstr "Ajouter les vraies photos Gravatars, les gravatars par défaut et les images Google (tout !) dans le dossier de cache (Meilleures performances HTTP)."
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:129
+#, php-format
+msgid "Cache folder path: <code>%s</code>"
+msgstr "Chemin du dossier de cache: <code>%s</code>"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:130
+#, php-format
+msgid "Empty cache (%d files)"
+msgstr "Vider le cache (%d fichiers)"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:154
+msgid "Cache emptied"
+msgstr "Cache vidé"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:172
+msgid "Upload your default avatar"
+msgstr "Ajoutez votre avatar par défaut"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:187
+msgid "I want this to be my default avatar!"
+msgstr "Je veux ça en avatar !"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:196
+msgid "Refresh avatar"
+msgstr "Renouveler l'avatar"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:197
+msgid "Delete avatar"
+msgstr "Supprimer l'avatar"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:198
+msgid "Email avatar warning"
+msgstr "Envoyer le mail d'attention"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:381
+msgid "Could not calculate resized image dimensions"
+msgstr "Could not calculate resized image dimensions"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:406
+msgid " (Your comment is awaiting moderation, maybe you will not see it.)"
+msgstr " (Votre commentaire est en attente de modération, peut-être vous ne pourrez pas le voir.)"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:408
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:474
+#, php-format
+msgid "[%s] New avatar"
+msgstr "[%s] Nouvel avatar"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:411
+#, php-format
+msgid "<p>A new automatic avatar %s from http://images.google.com have been associated to your email on your last comment.</p><p>You can view it here: %s.%s</p><p>If you do not like it, you can delete it forever by clicking here: %s (link  always valid).</p><p>You can also ask for a refresh by clicking here: %s (link always valid).</p><p>We invite you to create a free account on http://www.gravatar.com.</p>"
+msgstr "<p>Un nouvel avatar automatique %s a été associé à votre email depuis http://images.google.com sur votre dernier commentaire.</p><p>Vous pouvez le consulter ici: %s.%s</p><p>Si vous ne l'aimez pas, vous pouvez le supprimer à tout jamais en cliquant ici : %s (lien toujours valide).</p><p>Vous pouvez aussi demander de le renouveler en cliquant ici : %s (lien toujours valide).</p><p>Nous vous invitons à créer un compte gratuit sur http://www.gravatar.com.</p>"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:420
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:485
+#, php-format
+msgid "Best regards - %s."
+msgstr "Cordialement - %s."
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:443
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:445
+msgid "Avatar deleted"
+msgstr "Avatar supprimé"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:450
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:452
+msgid "Avatar refreshed"
+msgstr "Avatar renouvelé"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:457
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:459
+msgid "User mailed"
+msgstr "Email envoyé au membre"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:477
+#, php-format
+msgid "<p>A new automatic avatar %s from http://images.google.com have been associated to your email on your last comment.</p><p>If you do not like it, you can delete it forever by clicking here: %s (link  always valid).</p><p>You can also ask for a refresh by clicking here: %s (link always valid).</p><p>We invite you to create a free account on http://www.gravatar.com.</p>"
+msgstr "<p>Un nouvel avatar automatique %s a été associé à votre email depuis http://images.google.com sur votre dernier commentaire.</p><p>Si vous ne l'aimez pas, vous pouvez le supprimer à tou jamais en cliquant ici : %s (lien toujours valide).</p><p>Vous pouvez aussi demander de le renouveler en cliquant ici : %s (lien toujours valide).</p><p>Nous vous invitons à créer un compte gratuit sur http://www.gravatar.com.</p>"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:493
+msgid "Settings"
+msgstr "Réglages"
+
+#: c:\Users\Julio\Dropbox\BAW\plugins\baw-gravatar-google-image_repo\trunk/bawggi.php:525
+#, php-format
+msgid "Impossible to create %s directory, plugin is not activated."
+msgstr "Impossible de créer le dossier %s, le plugin n'est pas activé."
+
+#~ msgid "About"
+#~ msgstr "A propos"
+
+#~ msgid ""
+#~ "Try to get avatar from Google Image Service before send back the chosen "
+#~ "default gravatar."
+#~ msgstr ""
+#~ "Essayer d'obtenir un avatar depuis le service Google Image avant de "
+#~ "renvoyer l'avatar par défaut de gravatar sélectionné."
+
+#~ msgid ""
+#~ "Add ALL avatars (Gravatars too) into a cache folder <code>/wp-content/"
+#~ "uploads/gravatars/</code>.<br /><em>For information, all avatars from "
+#~ "Google Images are already cached in this folder.</em>"
+#~ msgstr ""
+#~ "Ajouter TOUS les avatars (Gravatars aussi) dans le dossier du cache "
+#~ "<code>/wp-content/uploads/gravatars/</code>.<br /><em>Pour information, "
+#~ "tous les avatars récupérés depuis Google Images sont déjà dans ce dossier "
+#~ "de cache.</em>"
